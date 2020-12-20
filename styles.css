@@ -1,5 +1,5 @@
 body {
-    background-color: hsl(214, 47%, 23%);
+    background-color: #1F3656;
 }
 .score {
     width: 600px;
@@ -44,7 +44,7 @@ h2{
 	text-align: center;
 	margin: 10px;
 }
-.circulos{
+#circulos{
 	width: 500px;
 	height: 500px;
 	margin: auto;
@@ -61,7 +61,9 @@ h2{
 	background-color: white;
 	margin-left: 50px;
 	border-radius: 50%;
+	top: 35%;
 	border: solid hsl(230, 89%, 62%) 30px;
+	position: absolute;
 }
 .paper img{
 	margin: 0;
@@ -71,18 +73,22 @@ h2{
 }
 .triangulo{
 	width: 100%;
-    height: 100%;
     margin-left: 100px;
     position: absolute;
+}
+.triangulo img{
+	margin: 0;
+	position: absolute;
+	z-index: -1;
 }
 .scissors{
 	width: 120px;
 	height: 120px;
 	background-color: white;
 	border-radius: 50%;
-	position: fixed;
-    top: 40%;
-    right: 33%;
+	position: absolute;
+    top: 35%;
+    right: 35%;
     border: solid hsl(39, 89%, 49%) 30px;
 }
 .scissors img{
@@ -97,13 +103,36 @@ h2{
 	background-color: white;
 	border-radius: 50%;
 	border: solid hsl(349, 71%, 52%) 30px;
-	position: fixed;
-	top: 70%;
-	right: 42%;
+	position: absolute;
+	top: 60%;
+	right: 43%;
 }
 .rock img {
 	margin: 0;
 	padding: 34px;
 	position: absolute;
 	z-index: 1;
+}
+.rules{
+	width: 150px;
+	height: 50px;
+	border-radius: 10px;
+	float: right;
+	text-align: center;
+	border: solid 2px;
+	border-color: hsl(217, 16%, 45%);
+	position: sticky;
+
+}
+.rules button{
+	margin: 10px;
+	background-color: transparent;
+	border: none;
+	font-family: Barlow;
+	font-size: 20px;
+	color: white;
+}
+.rock1{
+	color: transparent;
+	border: none;
 }
