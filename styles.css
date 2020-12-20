@@ -1,0 +1,45 @@
+body {
+    background-color: hsl(214, 47%, 23%);
+}
+.score {
+    width: 600px;
+    height: 150px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    border: solid 2px;
+    border-color: hsl(217, 16%, 45%);
+}
+h1{
+	color: white;
+	font-family: 'Barlow Semi Condensed', sans-serif;	margin: 0;	
+	font-size: 30px;
+}
+.letters{
+	margin-top: 20px;
+	margin-left: 20px;
+	position: absolute;
+}
+.score-icon{
+	width: 150px;
+	height: 130px;
+	background-color: white;
+	border-radius: 10px;
+	float: right;
+	margin: 10px;
+	margin-right: 20px;
+}
+h2{
+	font-family: Barlow;
+	color: hsl(229, 64%, 46%);
+	text-align: center;
+	font-size: 15px;
+	margin-top: 20px;
+}
+.score-icon p{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	color: hsl(229, 25%, 31%);
+	font-size: 50px;
+	text-align: center;
+	margin: 10px;
+}
